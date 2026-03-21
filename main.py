@@ -3,6 +3,7 @@ SVC 2 — Session Report Generator
 Run locally:  uvicorn main:app --reload --port 8001
 Docker:       see Dockerfile
 """
+import os
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
